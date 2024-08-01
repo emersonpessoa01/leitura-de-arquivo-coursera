@@ -1,4 +1,4 @@
-<h1 align="center">Praticar tarefa avaliada por colega: Exceções para Ler um Arquivo</h1>
+<h1 align="left">Praticar tarefa avaliada por colega: Exceções para Ler um Arquivo</h1>
 
 <div>
     <p>Deve ser criada a classe ProcessadorArquivo que possui o método estático processar(). Esse método recebe uma String com o nome de um arquivo e retorna um Map com as informações. O formato do arquivo deve ser o seguinte:</p>
@@ -32,7 +32,7 @@
             <code>
             1   File file = new File("arquivo.txt");
             2   Scanner sc = new Scanner(file);
-            3   while (sc.hasNextLine()){
+            3   while (sc.hasNextLine())
             4   String s = sc.nextLine();
             5   //trabalha com os dados da linha
         </code>
